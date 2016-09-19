@@ -24,6 +24,14 @@ header {
     box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.4);
 }
 
+header > a {
+    background-image: url(../images/transavia_logo_detail.png);
+}
+
+header li {
+    list-style-type: none;   
+}
+
 h1 {
     font-size: 1.5em;
     text-align: center;
@@ -75,16 +83,13 @@ article > footer {
     background-color: rgba(243, 229, 216, 1)
 }
 
-
 .material-icons.md-36 { 
-    font-size: 36px; 
+    font-size: 36px;
+    text-decoration: none;
     color: rgba(199,186,175,1);
-    position: absolute;
-    right: 0.7em;
-    padding: 0.3em;
+    margin: 0.3em;
+    margin-left: 7.8em;
 } 
-
-
 
 .detail {
     max-width: 40em;
@@ -109,6 +114,3 @@ article > footer {
     margin: 1em;
     vertical-align: top;    
 }
-
-
-
