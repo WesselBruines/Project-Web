@@ -14,7 +14,7 @@ body {
     background-image: url(../images/transavia-identity-7.png);
     background-repeat: no-repeat;
     background-size: 150%;
-    background-color: antiquewhite;
+    background-color: rgba(243, 229, 216, 1)
 }
 
 header {
@@ -36,31 +36,55 @@ article > h2 {
     font-size: 1.2em;
     font-weight: 600;
     color: rgba(0,214,108,1);
-    height: 3em;
+    margin: 1em 0.5em 0em 0.5em;
+    padding: 0.5em 0.5em 0em 0.5em;
+    min-height: 4em;
 }
 
 article > p {
     color: rgba(96,96,96,1);
     font-weight: 300;
-    padding-bottom: 2em;
-    height: 15em;
+    margin: 0.5em 1em 2em 1em;
+    padding: 0.5em;
+    min-height: 12em;
 }
 
 h2 + p {
     font-size: 0.8em;
-    height: 3em;
+    margin: 0em 1em 0.5em 1em;
+    padding: 0em 0.5em 0.5em 0.5em;
+    min-height: 2em;
 }
 
 article > a {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: rgba(255,39,97,1);
+    box-shadow: 0 0.2em 0em 0 rgba(205, 23, 71, 1);
     border-radius: 2em;
     color: rgba(255,255,255,1);
     padding: 0.5em 2.5em;
     text-decoration: none;
-    margin-left: 4.55em;
-    margin-right: 4.55em;
+    margin-left: 5.555em;
+    margin-right: 5.555em;
 }
+
+article > footer {
+    height: 3.5em;
+    width: 22em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: rgba(243, 229, 216, 1)
+}
+
+
+.material-icons.md-36 { 
+    font-size: 36px; 
+    color: rgba(199,186,175,1);
+    position: absolute;
+    right: 0.7em;
+    padding: 0.3em;
+} 
+
+
 
 .detail {
     max-width: 40em;
@@ -81,9 +105,8 @@ article > a {
     background-color: rgba(255,255,255,1); 
     box-shadow: 0 0.2em 0.3em 0 rgba(0, 0, 0, 0.3);
     width: 22em;
-    height: 25em;
+    height: 27em;
     margin: 1em;
-    padding: 1em;
     vertical-align: top;    
 }
 
