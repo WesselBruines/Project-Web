@@ -5,39 +5,60 @@
     <meta charset="UTF-8">
     <title>Aanmeldingspagina</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-
     <header>
-        <h1>Aanmeldpagina</h1>
+        <header>
+            <a href="overzichtpagina.html"><img src="images/transavia_logo_detail.png" alt="Transavia logo"></a>
+            <a id="favorite" class="material-icons md-36" href="#">favorite</a>
+            <a class="material-icons md-36" href="aanmeldingspagina.html">account_circle</a>
+        </header>
     </header>
     <main>
+        <h1>Aanmelden</h1>
         <form>
             <h2>Aanmelden</h2>
             <fieldset>
-              <legend> Persoonlijke informatie </legend>
-                  <label>Naam</label>
-                  <input required="required" type="text" maxlength="15" placeholder="Willem" />
-                  <input type="text" size="6" maxlength="10" placeholder="van der" />
-                  <input required="required" type="text" maxlength="15" placeholder="Vries" />
+                <legend> Persoonlijke informatie </legend>
 
-                  <label>Email</label>
-                  <input required="required" type="email" placeholder="Willem@mail.com" />
+                <section>
+                    <label>Voornaam</label>
+                    <input required="required" type="text" size="34" maxlength="15" placeholder="Willem" />
+                    <input type="text" size="6" maxlength="10" placeholder="van der" />
+                </section>
 
-                  <label>Adres</label>
-                  <input required="required" type="text" placeholder="Straatnaam" />
-                  <input required="required" type="number" placeholder="28" />
+                <section>
+                    <label>Achternaam</label>
+                    <input required="required" type="text" size="43" maxlength="15" placeholder="Vries" />
+                </section>
 
-                  <label>Postcode</label>
-                  <input required="required" type="number" placeholder="1234" />
-                  <input required="required" type="text" placeholder="AB" />
+                <section>
+                    <label>Email</label>
+                    <input required="required" type="email" size="43" placeholder="Willem@mail.com" />
+                </section>
 
-                  <label>Wachtwoord</label>
-                  <input required="required" type="password" />
+                <section>
+                    <label>Adres</label>
+                    <input required="required" type="text" placeholder="Straatnaam" />
+                    <input required="required" type="number" placeholder="28" />
+                </section>
 
-              <input type="submit" />
-          </fieldset>
+                <section>
+                    <label>Postcode</label>
+                    <input required="required" type="number" placeholder="1234" />
+                    <input required="required" type="text" size="20" placeholder="AB" />
+                </section>
+
+                <section>
+                    <label>Wachtwoord</label>
+                    <input required="required" type="password" size="43" />
+                </section>
+
+                <input type="submit" value="Aanmelden" />
+
+            </fieldset>
         </form>
     </main>
     <footer>
